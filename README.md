@@ -1,2 +1,2 @@
 ## Flowhart Program 
-![Flowchart](Flowchart.png.png)
+![Flowchart](https://github.com/friskafl162/Lab8praktikum/blob/main/Flowchart.png)
