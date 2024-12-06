@@ -12,6 +12,7 @@ Daftar Nilai Mahasiswa adalah sebuah program berbasis Python untuk mengelola dat
 ![Flowchart](https://github.com/friskafl162/Lab8praktikum/blob/main/Flowchart.png)
 
 ## Kode Program
+``` python
 class DaftarNilaiMahasiswa:
     def __init__(self):
         self.data = {}
@@ -82,7 +83,7 @@ if __name__ == "__main__":
             break
         else:
             print("Pilihan tidak valid. Silakan coba lagi.")
-````
+```
 ## Output Program
 ```
 Menu:
