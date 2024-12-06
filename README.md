@@ -157,3 +157,44 @@ Menu:
 5. Keluar
 Pilih menu (1-5): 5
 Program selesai.
+```
+
+## Diagram Class
++-------------------------+
+|  DaftarNilaiMahasiswa   |
++-------------------------+
+| - data: dict            |
++-------------------------+
+| + __init__()            |
+| + tambah(nama, nilai)   |
+| + tampilkan()           |
+| + hapus(nama)           |
+| + ubah(nama, nilai_baru)|
++-------------------------+
+
+## Cara Kerja Program
+1. Inisialisasi
+- Program dimulai dengan membuat objek dari class DaftarNilaiMahasiswa.
+- Data mahasiswa disimpan dalam dictionary kosong.
+  
+2. Tampilkan Menu
+- Program menampilkan menu utama dengan opsi:
+     - Tambah data
+     - Tampilkan data
+     - Hapus data
+     - Ubah data
+     - Keluar
+
+3. Proses Berdasarkan Pilihan
+     - Tambah Data: Menambahkan nama dan nilai mahasiswa.
+     - Tampilkan Data: Menampilkan semua data mahasiswa.
+     - Hapus Data: Menghapus data mahasiswa berdasarkan nama.
+     - Ubah Data: Mengubah nilai mahasiswa tertentu.
+     - Keluar: Mengakhiri program.
+
+4. Validasi Input
+     - Nilai mahasiswa diverifikasi sebagai angka (float).
+     - Program memberikan pesan error jika input tidak valid.
+
+5. Sesi Berulang
+     - Program berjalan dalam loop hingga pengguna memilih "Keluar".
